@@ -15,7 +15,7 @@
   --text-color-contrast: #fff;
   --background-color-main: #fff;
   --background-color-secondary: #f3f1f1;
-  --background-color-page: #ededed;
+  --background-color-page: #ffffff;
   --background-color-highlight: #aacec7;
   --background-color-highlight-soft: #bddad6;
   --background3: #d7d7d7;
@@ -140,7 +140,7 @@ body {
   word-break: break-word;
   hyphens: auto;
   padding-top: 130px;
-  background-color: #ededed;
+  background-color: #ffffff;
   color: #555;
   font-family: 'Open Sans', sans-serif;
 }
@@ -1142,12 +1142,12 @@ img {
 .well {
   border: none;
   box-shadow: none;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   margin-bottom: 1px;
 }
 .well hr {
   margin: 10px 0;
-  border-top: 1px solid #d9d9d9;
+  border-top: 1px solid #ebebeb;
 }
 .well table > thead {
   font-size: 11px;
@@ -1765,7 +1765,7 @@ div.required.has-error > label:after {
   padding-left: 10px;
 }
 .form-control {
-  border: 2px solid #ededed;
+  border: 2px solid #ffffff;
   box-shadow: none;
   min-height: 35px;
 }
@@ -2353,7 +2353,7 @@ body.modal-open {
   height: 10px;
   margin-bottom: 15px;
   box-shadow: none;
-  background: #ededed;
+  background: #ffffff;
   border-radius: 10px;
 }
 .progress-bar-info {
@@ -2476,7 +2476,7 @@ table td a:hover {
   background: #cacaca;
 }
 .comment .post-file-list {
-  background-color: #ededed;
+  background-color: #ffffff;
 }
 .comment.guest-mode .media:last-child .wall-entry-controls {
   margin-bottom: 0;
@@ -2554,7 +2554,7 @@ div.nested-comments-root div.comment-container {
 }
 .grid-view .filters input,
 .grid-view .filters select {
-  border: 2px solid #ededed;
+  border: 2px solid #ffffff;
   box-shadow: none;
   min-height: 35px;
   border-radius: 4px;
@@ -3050,7 +3050,7 @@ div.nested-comments-root div.comment-container {
   margin: 0;
 }
 .filter-root .filter-panel + .filter-panel {
-  border-left: 2px solid #ededed;
+  border-left: 2px solid #ffffff;
 }
 .stream-entry-loader {
   float: right;
@@ -3916,7 +3916,7 @@ ul.tour-list li.completed a {
 .alert-default {
   color: #691C32;
   background-color: #f3f1f1;
-  border-color: #ededed;
+  border-color: #ffffff;
   font-size: 13px;
 }
 .alert-default .info {
@@ -3972,11 +3972,11 @@ img.bounceIn {
   text-shadow: none;
 }
 .label-default {
-  background: #ededed;
+  background: #ffffff;
   color: #7a7a7a !important;
 }
 a.label-default:hover {
-  background: #e0e0e0 !important;
+  background: #f2f2f2 !important;
 }
 .label-info {
   background-color: #235B4E;
@@ -4211,7 +4211,7 @@ a.label-warning:hover {
   vertical-align: text-top;
 }
 .ProsemirrorEditor .ProseMirror-editor-source {
-  border: 2px solid #ededed;
+  border: 2px solid #ffffff;
   border-radius: 0 4px 4px 4px;
   box-sizing: border-box;
   display: block;
@@ -4543,7 +4543,7 @@ a.label-warning:hover {
   overflow: hidden;
 }
 [data-emoji-category] .atwho-emoji-entry.cur {
-  background-color: #ededed !important;
+  background-color: #ffffff !important;
 }
 .emoji-nav {
   padding-top: 10px;
@@ -5332,7 +5332,7 @@ a.label-warning:hover {
 }
 .select2-container--humhub .select2-selection {
   background-color: #fff;
-  border: 2px solid #ededed;
+  border: 2px solid #ffffff;
   border-radius: 4px;
   color: #555555;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -5342,7 +5342,7 @@ a.label-warning:hover {
 }
 .select2-container--humhub .select2-search--dropdown .select2-search__field {
   background-color: #fff;
-  border: 2px solid #ededed;
+  border: 2px solid #ffffff;
   border-radius: 4px;
   color: #555555;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
