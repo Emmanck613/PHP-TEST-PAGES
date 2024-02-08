@@ -13,13 +13,13 @@ use humhub\modules\user\widgets\AuthChoice;
 /* @var $info string */
 ?>
 <div class="modal-dialog modal-dialog-small animated fadeIn">
-    <div class="modal-content">
+    <div class="modal-content" style="background-color: #235B4E; color:white;">
         <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <button type="button" class="close" style="color:white;" data-dismiss="modal" aria-hidden="true">&times;</button>
             <div>
-                <img src="/themes/RICIT/img/Logo_Ricit.png" alt="RICIT Logo" style="width: 50%; height:50%; ">
+                <img src="../../../../../assets/logo/600x80.png" alt="RICIT Logo" style="width: 50%; height:50%; ">
             </div>
-            <h4 class="modal-title" id="myModalLabel"><?= Yii::t('UserModule.auth', '<strong>Join</strong> the network'); ?></h4>
+            <h4 class="modal-title" id="myModalLabel" style="color:white;"><?= Yii::t('UserModule.auth', '<strong>Join</strong> the network'); ?></h4>
         </div>
         <div class="modal-body">
             <br/>
@@ -28,11 +28,11 @@ use humhub\modules\user\widgets\AuthChoice;
                 <div class="text-center">
                     <ul id="tabs" class="nav nav-tabs tabs-center" data-tabs="tabs">
                         <li class="<?= (!isset($_POST['Invite'])) ? "active" : ""; ?> tab-login"><a
-                                href="#login"
+                                href="#login" style="color:#691C32;"
                                 data-toggle="tab"><?= Yii::t('SpaceModule.base', 'Login'); ?></a>
                         </li>
                         <li class="<?= (isset($_POST['Invite'])) ? "active" : ""; ?> tab-register"><a
-                                href="#register"
+                                href="#register"  style="color:#691C32;"
                                 data-toggle="tab"><?= Yii::t('SpaceModule.base', 'New user?'); ?></a>
                         </li>
                     </ul>
@@ -67,14 +67,14 @@ use humhub\modules\user\widgets\AuthChoice;
                     <hr>
                     <div class="row">
                         <div class="col-md-4">
-                            <button href="#" id="login-button" data-ui-loader type="submit" class="btn btn-primary" data-action-click="ui.modal.submit" data-action-url="<?= Url::to(['/user/auth/login']) ?>">
+                            <button href="#" id="login-button" data-ui-loader type="submit" class="btn" style="background-color:#BC955C" data-action-click="ui.modal.submit" data-action-url="<?= Url::to(['/user/auth/login']) ?>">
                                 <?= Yii::t('UserModule.auth', 'Sign in') ?>
                             </button>
 
                         </div>
                         <div class="col-md-8 text-right">
                             <small>
-                                <a id="recoverPasswordBtn" href="#" data-action-click="ui.modal.load" data-action-url="<?= Url::to(['/user/password-recovery']) ?>">
+                                <a id="recoverPasswordBtn" style="color:white;" href="#" data-action-click="ui.modal.load" data-action-url="<?= Url::to(['/user/password-recovery']) ?>">
                                     <?= Yii::t('UserModule.auth', 'Forgot your password?') ?>
                                 </a>
                             </small>
@@ -105,7 +105,7 @@ use humhub\modules\user\widgets\AuthChoice;
                         <?php endif; ?>
                         <hr>
 
-                        <a href="#" class="btn btn-primary" data-ui-loader data-action-click="ui.modal.submit" data-action-url="<?= Url::to(['/user/auth/login']) ?>">
+                        <a href="#" class="btn btn-primary" style="background-color:#BC955C; color:white;" data-ui-loader data-action-click="ui.modal.submit" data-action-url="<?= Url::to(['/user/auth/login']) ?>">
                             <?= Yii::t('UserModule.auth', 'Register') ?>
                         </a>
 
